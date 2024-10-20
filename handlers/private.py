@@ -39,7 +39,7 @@ async def handle_zakrytyy_kanal(message: types.Message):
 
 @private_router.message(or_f(Command('menedzher'), F.text == 'Менеджер'))
 async def handle_menedzher(message: types.Message):
-    await message.reply("<b>👨‍💻По всем вопросам писать: @wexhr</b>\n"
+    await message.reply("<b>👨‍💻По всем вопросам писать</b>\n"
                         "\n<b>‼️ВАЖНО У НАС ТОЛЬКО ОДИН МЕНЕДЖЕР,НЕ ВЕДИТЕСЬ НА МОШЕННИКОВ‼️</b>")
 
 
